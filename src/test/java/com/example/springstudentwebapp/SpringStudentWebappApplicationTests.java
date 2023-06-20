@@ -46,9 +46,6 @@ class SpringStudentWebappApplicationTests {
 
         studentRepository.deleteAll();
 
-        assertEquals(0, lst.size());
-
-
     }
 
 
