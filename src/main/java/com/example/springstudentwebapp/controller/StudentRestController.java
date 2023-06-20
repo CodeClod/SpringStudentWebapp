@@ -16,7 +16,7 @@ public class StudentRestController {
     @Autowired
     StudentRepository studentRepository;
 
-    @GetMapping("/students")
+    @GetMapping("/")
     public List<Student> students() {
         List<Student> studentList = studentRepository.findAll();
         return studentList;
